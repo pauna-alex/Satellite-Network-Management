@@ -140,11 +140,11 @@ In addition to the main logic, auxiliary functions adapted from Data Structures 
 
 ## Task-Specific Implementations
 
-### Task 1 (`cerinta1`)
+### Task 1
 - Constructs the binary tree using the Min-Heap logic.
 - Determines the tree height and prints the tree level by level.
 
-### Task 2 (`cerinta2`)
+### Task 2
 - Decodes binary messages (`0` = left, `1` = right) using the constructed tree.
 - Traverses the tree according to the binary stream and prints the names of the satellites found at the leaves.
 
@@ -153,15 +153,15 @@ In addition to the main logic, auxiliary functions adapted from Data Structures 
 [Image of Binary Tree traversal]
 
 
-### Task 3 (`cerinta3`)
+### Task 3
 - Encodes a list of satellite names into a binary string.
 - Finds the path from the root to each specified satellite and concatenates the resulting binary codes.
 
-### Task 4 (`cerinta4`)
+### Task 4
 - Identifies the **closest common parent** (Lowest Common Ancestor) for a set of satellites reporting errors.
 - Validates the parent by ensuring its name contains the names of all target satellites (using the concatenation property).
 
-### Task 5 (`cerinta5`)
+### Task 5
 - Transforms the main binary tree into a graph.
 - Attaches multi-way trees to specific nodes in the main structure.
 - Calculates the distance between two specified nodes within this hybrid structure.
